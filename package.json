@@ -1,13 +1,13 @@
 {
-  "name": "lusmila.ru",
+  "name": "lusmila",
   "version": "1.0.0",
-  "description": "hlusmila.ru",
+  "description": "lusmila",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "node node_modules/gulp/bin/gulp.js"
   },
-  "author": "eglebov@mail.ru",
+  "author": "author",
   "license": "MIT",
   "homepage": "#",
   "devDependencies": {

@@ -245,6 +245,7 @@ gulp.task('default', function(){
 		);
 });
 
+
 /* Задача для сборки без поднятия сервера */
 gulp.task('nosync', function(){
 	return runSequence(
