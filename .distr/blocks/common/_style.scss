@@ -1,0 +1,152 @@
+
+.wrapper{
+    max-width: 1920px;
+	overflow: hidden;
+	// box-shadow: 0 0 21px rgba(157,163,183,.75);
+	margin: 0 auto;
+}
+
+.container{
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.section-title{
+	font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 400;
+	color:#FFFFFF;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
+	cursor: default;
+	padding: 0 15px;
+	margin-bottom: 45px;
+  margin-top: 0;
+}
+.hidden-item{
+  display: none;
+}
+/*--- animation start---*/
+.slick-next,
+.slick-prew{
+color: #FFFFFF;
+}
+
+.my-dots {
+  position: absolute;
+  bottom: -45px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin:0;
+}
+
+.my-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.my-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.my-dots li button:hover,
+.my-dots li button:focus {
+  outline: none;
+}
+
+.my-dots li button:hover:before,
+.my-dots li button:focus:before {
+    opacity: .75;
+  color: #ffa500;
+}
+
+.my-dots li button:before {
+  font-family: 'slick';
+  font-size: 74px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   
+}
+
+.my-dots li.slick-active button:before {
+  color: #ffa500;
+  opacity: 1;
+}
+
+/*--- animation end---*/
+
+@media (max-width:1400px){
+	.container{
+		width: 100%;
+		max-width:1200px;
+	}
+}
+
+@media (max-width:900px){
+	.container{
+		width: 100%;
+		max-width:768px;
+	}
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgb(65, 65, 65);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #ffa500;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #ff7600;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+#glass {
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+    display: none;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,.6);
+    z-index: 9000;
+}
+
+@media(max-width:1025px){
+
+}
